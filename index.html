@@ -2,12 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>My First Bitstarter</title>
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>My First Bitstarter</title>
-    <meta charset="utf-8">
+    <title>March Madness Pick 13 Tournament Pool</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
@@ -62,7 +57,7 @@
         font-size: 24px;
         line-height: 30px;
       }
-      p {
+      p, li {
         font-size: 18px;
         line-height: 24px;
       }
@@ -139,19 +134,19 @@
       <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
       <div class="row-fluid heading">
         <div class="span12">
-          <h1>Product</h1>
+          <h1>March Madness Pick 13 Tournament Pool</h1>
         </div>
       </div> 
       <div class="row-fluid subheading">
         <div class="span12">
           <!-- Special typography from Bootstrap for lead paragraph. -->
           <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-          <p class="lead">One sentence description.</p>
+          <p class="lead">An exciting twist on the typical March Madness Pool, where you only pick <strong>13</strong> teams.</p>
         </div>
       </div>
       <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid" src="http://i.imgur.com/JESta2k.png">
         </div>
 
         <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
@@ -163,17 +158,17 @@
                 different in horizontal and vertical layouts, illustrating
                 media queries. -->
                 <div class="linediv-l">
-                <h3>1000</h3> <p>backers</p>
+                <h3>0</h3> <p>backers</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-c">
-                  <h3>$6000</h3> <p>of $10,000</p>
+                  <h3>$0</h3> <p>of $200</p>
                 </div>
               </div>
               <div class="span4">
                 <div class="linediv-r">
-                <h3>10</h3> <p>days left</p>
+                <h3>30</h3> <p>days left</p>
                 </div>
               </div>
             </div>
@@ -182,8 +177,9 @@
             <!-- Bootstrap progress bar -->
             <!-- http://twitter.github.io/bootstrap/components.html#progress -->
             <div class="thermometer progress active">
-              <div class="bar bar-success" style="width: 60%;"></div>
-              <div class="bar bar-warning" style="width: 40%;"></div>
+              <div class="bar bar-success" style="width: 3%;"></div>
+              <div class="bar bar-warning" style="width: 0%;"></div>
+              <div class="bar bar-danger" style="width: 0%;"></div>
             </div>
           </div>
           <div class="span6 offset3 order">
@@ -206,21 +202,16 @@
       <!-- http://placehold.it -->
       <div class="row-fluid section1">
         <div class="span5 offset1 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img src="http://i.imgur.com/QKCV1mK.png">          
         </div>
         <div class="span5 copy">
+          <ul>
+            <li>Tired of the same ol' March Madness pool every year?</li>
+            <li>Sick of picking every single game, when all you really care about is a handful of teams?</li>
+            <li>Wish you had a slick online bracket, instead of emailing MS Excel files back and forth?</li>
+          </ul>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
-            mollis justo velit at nunc. Fusce nec egestas sem. Donec
-            fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
-            volutpat lorem ut congue malesuada. In facilisis scelerisque
-            turpis sed lacinia. Donec in orci lectus. Donec auctor semper
-            quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
-            risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
-            rutrum, nunc leo tempus nisl, eu mollis justo velit at
-            nunc. Fusce nec egestas sem. Donec fringilla.
+            Well then, <em>you</em> need to play the Pick 13 March Madness pool this year! It's easy; you just pick <strong>13</strong> teams, whose seeds add up to <strong>100</strong>. That's it!
           </p>
         </div>
       </div>
@@ -228,23 +219,25 @@
       <div class="row-fluid section2">
         <div class="span5 offset1 copy copy-right">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu
-            mollis justo velit at nunc. Fusce nec egestas sem. Donec
-            fringilla ante lectus, a pellentesque lacus dignissim ac. Sed
-            volutpat lorem ut congue malesuada. In facilisis scelerisque
-            turpis sed lacinia. Donec in orci lectus. Donec auctor semper
-            quam, eget rhoncus purus fringilla id. Phasellus id nibh eu
-            risus ultrices adipiscing.  Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Donec porta, dui sagittis hendrerit
-            rutrum, nunc leo tempus nisl, eu mollis justo velit at
-            nunc. Fusce nec egestas sem. Donec fringilla.
+The rules for the game are simple:  Everyone picks 13 teams whose seeds add up to 100.  For example, if UNC is a # 1 seed and VCU is a #13 seed and you pick them, they combine to make 14, and you need to select 11 other teams whose seeds add up to 86.
+          </p>
+          <p>
+You earn points everytime one of your chosen teams wins a game.  If a team wins a game, you get the value of their seed plus a designated point amount, which ascends each round as follows: 1, 2, 4, 8, 16, 32.  So, if you picked VCU as a #13 seed and they win games in the first three rounds, you would get 13+1, 13+2, and 13+4.
           </p>
         </div>
         <div class="span5 asset">
-          <img class="img-polaroid" src="http://placehold.it/480x300">
+          <img class="img-polaroid" src="http://i.imgur.com/HE7HHR7.png">
         </div>
       </div>
+      <div class="span8 offset2 copy">
+        <p>
+          With your contribution, I'll be able to make this Pick 13 site a reality! Here's what you'll get for spending your precious bitcoins to help me:
+          <ul>
+            <li>$5 - Early access to the site as a Beta tester; you'll be one of the first to play!</li>
+            <li>$20 - Beta test access, plus free use of the site for life, even if it becomes pay-only in the future!</li>
+            <li>$75 - All of the above privileges, plus I will personally play in a March Madness 2014 pool with you</li>
+        </p>
+      </div
 
       <!-- For the FAQ, we introduce a little bit of JS, using the accordion. -->
       <!-- This brings in jquery.js and bootstrap.js as dependencies. -->
@@ -257,12 +250,12 @@
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseOne">
-                    What does FAQ stand for?
+                    Will this cost me any money?
                   </a>
                 </div>
                 <div id="collapseOne" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    Frequently Asked Question.
+                    Nope! It's free to play.
                   </div>
                 </div>
               </div>
@@ -270,12 +263,12 @@
                 <div class="accordion-heading">
                   <a class="accordion-toggle" data-toggle="collapse"
                      data-parent="#accordion2" href="#collapseTwo">
-                    What's a Frequently Asked Question?
+                    Is sports betting legal in the United States?
                   </a>
                 </div>
                 <div id="collapseTwo" class="accordion-body collapse">
                   <div class="accordion-inner">
-                    A question which is commonly asked by users.
+                    Only in <a href="http://www.legalzoom.com/everyday-law/workplace/is-your-march-madness-office" target="_blank">Nevada</a>. This website does not support or endorse gambling.
                   </div>
                 </div>
               </div>
